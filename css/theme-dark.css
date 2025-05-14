@@ -1,0 +1,159 @@
+/* =====================
+   TEMA ESCURO PERSONALIZADO
+   ===================== */
+
+/* === PALETA GLOBAL === */
+:root {
+  --color-background: #0b1f3a;      /* Fundo azul marinho escuro */
+  --color-primary: #f0a154;         /* Dourado para destaques e títulos */
+  --color-text: #e7e7e7;            /* Texto branco puro */
+  --color-muted: #cccccc;           /* Cinza claro para subtítulos */
+  --color-surface: #1a1a1a;         /* Superfícies internas */
+  --color-border: #333333;          /* Bordas discretas */
+  --color-accent: #567fd6;          /* Azul vibrante opcional */
+}
+
+/* === MODO ESCURO === */
+body.theme-dark {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: "Montserrat", sans-serif;
+}
+
+body.theme-dark h1,
+body.theme-dark h2,
+body.theme-dark h3,
+body.theme-dark h4,
+body.theme-dark h5,
+body.theme-dark h6 {
+  color: var(--color-primary);
+  font-weight: 700;
+}
+
+body.theme-dark a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+body.theme-dark a:hover {
+  color: var(--color-text);
+  text-decoration: underline;
+}
+
+body.theme-dark .dropdown-menu .dropdown-item:hover {
+  background-color: var(--color-surface); /* azul escuro */
+  color: var(--color-primary); /* dourado no texto, opcional */
+}
+
+
+body.theme-dark small,
+body.theme-dark .text-muted {
+  color: var(--color-muted);
+}
+
+/* === CLASSES DE BACKGROUND PADRÃO === */
+body.theme-dark .bg-light,
+body.theme-dark .bg-white,
+body.theme-dark .bg-muted,
+body.theme-dark .bg-gray,
+body.theme-dark .bg-gray-dark {
+  background-color: var(--color-surface) !important;
+}
+
+/* === SEÇÕES === */
+.section-dark {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  /* padding: 60px 0; */
+}
+
+.section-dark .section-title {
+  color: var(--color-primary);
+  margin-bottom: 2rem;
+}
+
+.section-dark p,
+.section-dark li,
+.section-dark span {
+  color: var(--color-text);
+}
+
+/* === FORMULÁRIOS === */
+body.theme-dark input,
+body.theme-dark textarea,
+body.theme-dark select {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  color: var(--color-text);
+}
+
+body.theme-dark input::placeholder,
+body.theme-dark textarea::placeholder {
+  color: var(--color-muted);
+}
+
+/* === BOTÕES === */
+.btn-gold {
+  background-color: var(--color-surface);
+  color: #ffffff;
+  border: none;
+  border-color: #f8f9fa;
+}
+
+.btn-gold:hover {
+  background-color: #e08f42;
+  color: #707070;
+}
+
+.btn-outline-gold:focus,
+.btn-outline-gold.focus {
+  box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5);
+}
+
+.btn-outline-light {
+  background-color: transparent;
+  color: var(--color-text);
+  border: 1px solid var(--color-text);
+}
+
+.btn-outline-light:hover {
+  background-color: var(--color-text);
+  color: var(--color-background);
+}
+
+/* === NAVBAR === */
+body.theme-dark .navbar,
+body.theme-dark .navbar-nav,
+body.theme-dark .dropdown-menu {
+  background-color: var(--color-background);
+}
+
+body.theme-dark .navbar-nav .nav-link {
+  color: var(--color-text);
+}
+
+body.theme-dark .navbar-nav .nav-link:hover,
+body.theme-dark .navbar-nav .nav-link.active {
+  color: var(--color-primary);
+}
+
+body.theme-dark .navbar-toggler {
+  border-color: var(--color-text);
+}
+
+body.theme-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+body.theme-dark .d-inline-flex.align-items-center.p-2 i,
+body.theme-dark .d-inline-flex.align-items-center.p-2 svg {
+  color: var(--color-text);
+  fill: var(--color-text);
+}
+
+body.theme-dark .d-inline-flex.align-items-center.p-2 i:hover,
+body.theme-dark .d-inline-flex.align-items-center.p-2 svg:hover {
+  text-decoration: none !important;
+}
+
+

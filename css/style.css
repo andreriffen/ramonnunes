@@ -6,7 +6,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
- /* 
+/* 
  * Coded by @Andreriffen (github.com/andreriffen)
  */
 :root {
@@ -37,6 +37,14 @@
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
   --font-family-sans-serif: "Montserrat", sans-serif;
+
+ --color-background: #0b1f3a;      /* Azul marinho escuro */
+  --color-primary: #f0a154;         /* Dourado cobre */
+  --color-text: #ffffff;            /* Branco puro */
+  --color-muted: #cccccc;           /* Cinza claro para textos secundários */
+  --color-surface: #1a1a1a;         /* Superfícies internas (cards, inputs) */
+  --color-border: #333333;          /* Bordas discretas */
+  --color-accent: #567fd6;          /* Azul vibrante para botões opcionais */
 }
 
 *,
@@ -4641,7 +4649,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-toggler {
-  padding: 0.25rem 0.75rem;
+  
   font-size: 1.25rem;
   line-height: 1;
   background-color: transparent;
@@ -7106,7 +7114,7 @@ button.bg-dark:focus {
   padding: 1rem;
 }
 
-.bg-dim{
+.bg-dim {
   background-color: #ccc !important;
 }
 
@@ -8573,6 +8581,10 @@ button.bg-dark:focus {
 .ml-5,
 .mx-5 {
   margin-left: 3rem !important;
+}
+
+.mt-90{
+  margin-top: 90px !important;
 }
 
 .p-0 {
@@ -10972,7 +10984,7 @@ h6 {
 
 .btn {
   font-weight: 600;
-  padding: 10px 25px;
+  padding: 0.25rem 0.75rem;
 }
 
 .btn-square {
@@ -11064,6 +11076,11 @@ h6 {
 .bg-appointment {
   background: linear-gradient(rgba(55, 55, 63, 0.7), rgba(55, 55, 63, 0.7)), url(../img/carousel-1.jpg), no-repeat center center;
   background-size: cover;
+}
+
+.bg-about {
+  background: linear-gradient(to right, rgba(11, 31, 58, 1), rgba(11, 31, 58, 0.1)), url(../img/banner-1.png), no-repeat center center; 
+  background-size: cover; 
 }
 
 .bg-action {
@@ -11164,6 +11181,6 @@ h6 {
   list-style-type: none;
 }
 
-.areas{
+.areas {
   background-color: rgb(240, 240, 240);
 }

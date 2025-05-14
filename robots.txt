@@ -1,0 +1,10 @@
+# robots.txt para ramonnunes.adv.br
+
+User-agent: *
+Disallow: /lib/
+Disallow: /scss/
+Disallow: /mail/
+Disallow: /img/old/
+Allow: /
+
+Sitemap: https://ramonnunes.adv.br/sitemap.xml

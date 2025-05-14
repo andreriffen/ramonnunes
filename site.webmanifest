@@ -1,0 +1,49 @@
+{
+    "name": "Ramon Nunes - Advocacia",
+    "short_name": "Ramon Nunes",
+    "description": "Site oficial do Dr. Ramon Nunes, advogado especializado em Direito Bancário e Defesa do Consumidor. Aqui você encontra informações jurídicas claras, conteúdos atualizados e formas diretas de atendimento personalizado.",
+    "version": "1.0",
+    "author": "andreriffen",
+    "homepage": "https://www.ramonnunes.adv.br",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#0b1f3a",
+    "theme_color": "#f0a154",
+    "orientation": "portrait",
+    "lang": "pt-BR",
+    "dir": "ltr",
+    "scope": "/",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "screenshots": [
+        {
+            "src": "/img/screenshot1.png",
+            "sizes": "1280x720",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/screenshot2.png",
+            "sizes": "1280x720",
+            "type": "image/png"
+        }
+    ],
+    "categories": [
+        "business",
+        "legal",
+        "consulting"
+    ],
+    
+    "icons": [
+        {
+            "src": "/img/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+
+}
