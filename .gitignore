@@ -1,0 +1,39 @@
+# ⚙️ Sistemas operacionais
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 🧪 Arquivos do VS Code
+.vscode/
+*.code-workspace
+
+# 🧼 Arquivos temporários e backups
+*.log
+*.tmp
+*.bak
+*~
+
+# 🗑️ Lixos manuais ou atalhos
+*.lnk
+*.swp
+
+# ⚙️ Configurações locais e dependências ocultas
+.env
+.env.local
+node_modules/
+bower_components/
+
+# 📦 Compilação SCSS (mantém apenas os arquivos finais CSS)
+scss/
+!scss/style.scss
+
+# 🧱 Arquivos CSS minificados (se for compilado localmente e não versão final)
+css/style.min.css
+
+# 📦 Cache de build e arquivos de deploy
+dist/
+build/
+*.zip
+
+# 💾 Arquivos de sistema do GitHub Actions
+.github/
